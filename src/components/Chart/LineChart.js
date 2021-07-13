@@ -92,7 +92,7 @@ function LineChart({ data }) {
                     })}
                     onClick={() => setFilter("all")}
                 >
-                    Tất cả
+                    All
                 </button>
                 <button
                     type="button"
@@ -101,7 +101,7 @@ function LineChart({ data }) {
                     })}
                     onClick={() => setFilter("30")}
                 >
-                    30 ngày
+                    Last 30 days
                 </button>
                 <button
                     type="button"
@@ -110,7 +110,7 @@ function LineChart({ data }) {
                     })}
                     onClick={() => setFilter("7")}
                 >
-                    7 ngày
+                    Last 7 days
                 </button>
             </div>
             <HighchartsReact hightcharts={Highchart} options={options} />
