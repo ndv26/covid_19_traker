@@ -14,7 +14,7 @@ const generateOptions = (data) => {
             height: 500,
         },
         title: {
-            text: "Tổng ca nhiễm",
+            text: "All cases",
         },
         xAxis: {
             categories: categories,
@@ -48,7 +48,7 @@ const generateOptions = (data) => {
         },
         series: [
             {
-                name: "Tổng Ca nhiễm",
+                name: "All cases",
                 data: data.map((item) => item.Confirmed),
             },
         ],
